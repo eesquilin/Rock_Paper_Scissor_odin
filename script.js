@@ -13,8 +13,8 @@ function getCOmputerChoice() {
 }
 
 function getHumanChoice() {
-    console.log("Enter a number for your selection: Paper(0) Rock(1) Scissor(2)");
-    const choice = prompt("Your choice: ");
+   
+    const choice = prompt("Your choice: Paper(0) Rock(1) Scissor(2). ");
     if (choice === "0") {
         console.log("Paper");
     } else if (choice === "1") {
@@ -25,3 +25,6 @@ function getHumanChoice() {
         console.log("Invalid choice");
     }
 }
+
+getCOmputerChoice()
+getHumanChoice()
