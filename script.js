@@ -26,5 +26,6 @@ function getHumanChoice() {
     }
 }
 
-getCOmputerChoice()
-getHumanChoice()
+
+
+
