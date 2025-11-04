@@ -41,3 +41,10 @@ function playRound(humanChoice, computerChoice) {
     ComputerScore++;
   }
 }
+
+function playGame() {
+  for (let i = 0; i < 5; i++) {
+    playRound(getHumanChoice(), getCOmputerChoice());
+    console.log(`Human Score: ${humanScore}, Computer Score: ${ComputerScore}`);
+  }
+}
